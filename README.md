@@ -1,1 +1,2 @@
-# pdm2024
+# Programación de dispositivos móviles 2024
+En este curso se proporcionara a los estudiantes los conocimientos técnicos y teóricos necesarios para poder crear aplicaciones para dispositivos móviles desde cero, siguiendo buenas prácticas de programación, y tomando en cuenta el ciclo de vida formal de desarrollo de una solución informática, con lo que se espera que los estudiantes puedan potenciar las habilidades adquiridas a lo largo de la carrera. Al aprobar este curso, el estudiante estará listo para formar parte de un equipo de desarrollo para móviles o innovar como desarrollador independiente.
