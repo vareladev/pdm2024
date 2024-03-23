@@ -11,7 +11,7 @@ El contenido del curso se ha dividido en siete temas principales, que se detalla
 * Distribución de aplicaciones
 
 # Descripción de proyectos
-| Header 1 | Header 2 |
+| Proyecto | Descripción |
 |----------|----------|
 | Example221Calc    | Ejemplo de la clase 2.1. Interfaces gráficas con XML   |
 | Example221JetpackCompose    | Ejemplo de la clase 2.2. Interfaces gráficas con Jetpack Compose   |
