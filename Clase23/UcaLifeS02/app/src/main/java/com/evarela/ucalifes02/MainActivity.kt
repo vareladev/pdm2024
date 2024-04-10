@@ -40,6 +40,16 @@ fun Main(){
             "Sit ducimus quis qui quia quia in repellat veritatis sed vero nulla et architecto totam qui quidem laudantium. Et voluptatem rerum et tempora sunt qui officiis galisum in ipsum magnam aut eligendi explicabo et vero nemo. Est architecto accusamus id nemo illo 33 dolorem voluptatibus ut soluta quam aut totam esse. At eveniet nihil At placeat quae sed sequi praesentium qui perspiciatis numquam est amet sequi aut quasi tempora et esse dicta."
         )
     )
+    PostComponent(post =
+    PostDataClass(
+        1,
+        "example",
+        R.drawable.portrait,
+        6,
+        "02/02/2024",
+        "Sit ducimus quis qui quia quia in repellat veritatis sed vero nulla et architecto totam qui quidem laudantium. Et voluptatem rerum et tempora sunt qui officiis galisum in ipsum magnam aut eligendi explicabo et vero nemo. Est architecto accusamus id nemo illo 33 dolorem voluptatibus ut soluta quam aut totam esse. At eveniet nihil At placeat quae sed sequi praesentium qui perspiciatis numquam est amet sequi aut quasi tempora et esse dicta."
+    )
+    )
 }
 
 @Preview(showSystemUi= true)
