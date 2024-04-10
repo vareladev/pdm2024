@@ -10,4 +10,4 @@ Este proyecto corresponde con el "Ejemplo práctico 2.3.1: UCA Life versión 1.0
 
 
 ## Algunas capturas de pantalla del proyecto
-![Alt text](https://raw.githubusercontent.com/vareladev/pdm2024/main/projectscreenshots/clase22.png)
+![Alt text](https://raw.githubusercontent.com/vareladev/pdm2024/main/projectscreenshots/clase23.png)
