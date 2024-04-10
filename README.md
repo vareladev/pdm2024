@@ -4,14 +4,16 @@ En este curso se proporcionara a los estudiantes los conocimientos técnicos y t
 El contenido del curso se ha dividido en siete temas principales, que se detallan a continuación: 
 * Introducción a la programación de dispositivos móviles
 * Interfaz gráfica de usuario
-* Vistas y fragmentos
-* Patrones de diseño
+* Programación multitarea
 * Persistencia de datos
+* Patrones de diseño
 * Pruebas
 * Distribución de aplicaciones
 
 # Descripción de proyectos
-| Proyecto | Descripción |
-|----------|----------|
-| Example221Calc    | Ejemplo de la clase 2.1. Interfaces gráficas con XML   |
-| Example221JetpackCompose    | Ejemplo de la clase 2.2. Interfaces gráficas con Jetpack Compose   |
+| Clase | Proyecto | Descripción |
+|----------|----------|----------|
+| Clase 2.1 | Example221Calc    | Calculadora construida en XML   |
+| Clase 2.2 | Example221JetpackCompose    | Revisión de componentes básicos de Jetpack Compose   |
+| Clase 2.3 | UCALife    | UCA Life v1.0: Creación de screens y estructura de Post   |
+| Clase 2.4 | UCALife    | UCA Life v1.1: Lista con scroll y Navigation Button Bar   |
