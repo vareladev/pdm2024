@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UCA Life</string>
+    <string name="post_photo">Post photo</string>
+    <string name="like_count">Like Count</string>
+</resources>
