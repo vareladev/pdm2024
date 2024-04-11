@@ -11,4 +11,4 @@ Este proyecto corresponde con el "Ejemplo práctico 2.4.1" y "Ejemplo práctico 
 - Implementar en la App UCA Life un sistema de navegación entre varias pantallas utilizando un componente de barra de navegación inferior de Jetpack Compose.
 
 ## Capturas de pantalla del proyecto
-![](https://raw.githubusercontent.com/vareladev/pdm2024/main/projectscreenshots/clase24.gif | width=270)
+![](https://i.postimg.cc/cCRgyNF0/clase24.gif | width=270)
