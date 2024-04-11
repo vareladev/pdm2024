@@ -12,3 +12,4 @@ Este proyecto corresponde con el "Ejemplo práctico 2.4.1" y "Ejemplo práctico 
 
 ## Capturas de pantalla del proyecto
 ![](https://i.postimg.cc/cCRgyNF0/clase24.gif | width=270)
+![Alt text](https://i.postimg.cc/cCRgyNF0/clase24.gif)
