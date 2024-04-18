@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navbar_home">Inicio</string>
+    <string name="navbar_add">Subir foto</string>
+    <string name="navbar_profile">Perfil</string>
+    <string name="select_photo">Selecciona una foto</string>
+    <string name="post_photo">Publicar</string>
+    <string name="insert_title">Titulo</string>
+    <string name="insert_description">Descripción</string>
+    <string name="user_information">Información de usuario</string>
+    <string name="actions">Acciones</string>
+    <string name="email">Correo electrónico</string>
+    <string name="uploaded_photos">Fotos publicadas</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="delete_account">Eliminar mi cuenta</string>
+    <string name="login_remember_me">Recuerdame en este dispositivo</string>
+    <string name="login_btn_login">Iniciar sesión</string>
+    <string name="login_username">Usuario</string>
+    <string name="login_placeholder_user">Ingresa tu usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_placeholder_pass">Ingresa tu contraseña</string>
+    <string name="login_toast_error">Datos incorrectos :(</string>
+</resources>
