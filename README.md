@@ -18,3 +18,6 @@ El contenido del curso se ha dividido en siete temas principales, que se detalla
 | Clase 2.3 | UCALife    | UCA Life v1.0: Creación de screens y estructura de Post   |
 | Clase 2.4 | UCALife    | UCA Life v1.1: Lista con scroll y Navigation Button Bar   |
 | Clase 2.5 | UCALife    | UCA Life v1.2: Pantalla de login (sin funcionalidad) y mejoras UX   |
+| Clase 2.4 | UCALife    | UCA Life v1.1: Lista con scroll y Navigation Button Bar   |
+| Clase 3.1 | Lightbulb    | Demostración para implementar corrutinas y uso de dispatchers   |
+| Clase 3.1 | LightbulbFlow    | Implementación de un flow utilizando un productor y un consumidor   |
