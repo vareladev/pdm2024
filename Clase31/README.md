@@ -1,4 +1,4 @@
-# Jetpack Compose. Corrutinas y Flows
+# 3.1. Corrutinas y Flows
 ## Objetivos
 - Comprender qué son las corrutinas y los diferentes tipos de flows (flows, stateflow y sharedflow), así como las caracteristicas de cada estructura. 
 - Explorar los beneficios y aplicaciones prácticas de las corrutinas y los flows
