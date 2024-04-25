@@ -18,6 +18,9 @@ El contenido del curso se ha dividido en siete temas principales, que se detalla
 | Clase 2.3 | UCALife    | UCA Life v1.0: Creación de screens y estructura de Post   |
 | Clase 2.4 | UCALife    | UCA Life v1.1: Lista con scroll y Navigation Button Bar   |
 | Clase 2.5 | UCALife    | UCA Life v1.2: Pantalla de login (sin funcionalidad) y mejoras UX   |
-| Clase 2.4 | UCALife    | UCA Life v1.1: Lista con scroll y Navigation Button Bar   |
 | Clase 3.1 | Lightbulb    | Demostración para implementar corrutinas y uso de dispatchers   |
 | Clase 3.1 | LightbulbFlow    | Implementación de un flow utilizando un productor y un consumidor   |
+| Clase 3.2 | LightbulbStateflow    | Modificación de la UI a partir de un estado configurado con stateflow  |
+| Clase 3.2 | AutomatizedLightBulb    | Modificación de la UI a partir de un estado configurado con sharedflow  |
+| Clase 3.2 | JCUIStateManagement    | Modelo basado en stateflow para administrar el estado de la UI  |
+| Clase 3.2 | UCALife    | UCA Life v1.3: Implementación de stateFlow para el proceso de login y carga de nuevos post  |
