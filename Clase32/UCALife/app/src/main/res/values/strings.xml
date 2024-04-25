@@ -21,4 +21,6 @@
     <string name="login_password">Password</string>
     <string name="login_placeholder_pass">Enter your password</string>
     <string name="login_toast_error">Wrong Credentials :(</string>
+    <string name="error_1">Incorrect username or password</string>
+
 </resources>

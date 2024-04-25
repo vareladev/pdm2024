@@ -48,9 +48,8 @@ fun LoginFormComponent(
     context: Context,
     viewModel: LoginViewModel
 ){
+    //var loginData by remember { mutableStateOf(LoginData()) }
     val loginButtonState = viewModel.loginState.collectAsState()
-
-    var loginData by remember { mutableStateOf(LoginData()) }
 
     Column(
         verticalArrangement = Arrangement.Center,
@@ -66,15 +65,15 @@ fun LoginFormComponent(
             contentDescription = "")
         Spacer(modifier = Modifier.padding(32.dp))
         LoginField(
-            value = loginData.login,
-            onChange = { data -> loginData = loginData.copy(login = data) },
+            value = viewModel.loginData.login,
+            onChange = { data -> viewModel.loginData = viewModel.loginData.copy(login = data) },
             modifier = Modifier.fillMaxWidth()
         )
         PasswordField(
-            value = loginData.pwd,
-            onChange = { data -> loginData = loginData.copy(pwd = data) },
+            value = viewModel.loginData.pwd,
+            onChange = { data -> viewModel.loginData = viewModel.loginData.copy(pwd = data) },
             submit = {
-                if (!checkCredentials(loginData, context)) loginData = LoginData()
+                if (!checkCredentials(viewModel.loginData, context)) viewModel.loginData = LoginData()
             },
             modifier = Modifier.fillMaxWidth()
         )
@@ -82,18 +81,17 @@ fun LoginFormComponent(
         LabeledCheckbox(
             label = stringResource(id = R.string.login_remember_me),
             onCheckChanged = {
-                loginData = loginData.copy(remember = !loginData.remember)
+                viewModel.loginData = viewModel.loginData.copy(remember = !viewModel.loginData.remember)
             },
-            isChecked = loginData.remember
+            isChecked = viewModel.loginData.remember
         )
         Spacer(modifier = Modifier.height(20.dp))
 
         Button(
             onClick = {
-                viewModel.checkLogin(loginData, context)
+                viewModel.checkLogin(context)
             },
-            enabled = (loginData.isNotEmpty() && (loginButtonState.value == LoginButtonState.Ready))
-            or (loginButtonState.value is LoginButtonState.Error),
+            enabled = (viewModel.loginData.isNotEmpty() && (loginButtonState.value == LoginButtonState.Ready)),
             shape = RoundedCornerShape(5.dp),
             modifier = Modifier
                 .fillMaxWidth()
@@ -105,10 +103,6 @@ fun LoginFormComponent(
                         modifier = Modifier.
                         then(Modifier.size(32.dp)
                         ))
-                is LoginButtonState.Error -> {
-                    loginData = LoginData()
-                    viewModel.setLoginActivityReady()
-                }
                 else -> Text(stringResource(id = R.string.login_btn_login))
             }
         }

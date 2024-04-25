@@ -5,6 +5,10 @@ import android.content.Context
 import android.content.Intent
 import android.util.Log
 import android.widget.Toast
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.evarela.ucalife.model.LoginData
@@ -19,30 +23,34 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 class LoginViewModel: ViewModel()  {
+
+    var loginData by mutableStateOf(LoginData())
+
     private val _loginState = MutableStateFlow<LoginButtonState>(LoginButtonState.Ready)
     val loginState: StateFlow<LoginButtonState> = _loginState
 
-    fun checkLogin(loginData: LoginData, context: Context) {
+    fun checkLogin(context: Context) {
         viewModelScope.launch(Dispatchers.IO) {
             try {
                 _loginState.value = LoginButtonState.Loading
                 delay(2000) // simulating login data fetch
                 if ( checkCredentials(loginData, context))
                     _loginState.value = LoginButtonState.Success
-                else
+                else{
                     _loginState.value = LoginButtonState.Error(1)
-                withContext(Dispatchers.Main) {
-                    Toast.makeText(context, ErrorList[(_loginState.value as LoginButtonState.Error).errorCode], Toast.LENGTH_SHORT).show()
+                    loginData = LoginData()
+                    withContext(Dispatchers.Main) {
+                        Toast.makeText(context, ErrorList[(_loginState.value as LoginButtonState.Error).errorCode], Toast.LENGTH_SHORT).show()
+                    }
+                    _loginState.value = LoginButtonState.Ready
                 }
+
             } catch (e: Exception) {
                 _loginState.value = LoginButtonState.Error(2)
             }
         }
     }
 
-    fun setLoginActivityReady (){
-        _loginState.value = LoginButtonState.Ready
-    }
 
 }
 
