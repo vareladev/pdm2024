@@ -11,6 +11,8 @@ Este proyecto corresponde los siguientes ejemplos de la clase 4.1:
 
 ## Actualizaciones UCA Life 
 - Implementación de opción "recuerdame en este dispositivo"
+
 ![Alt text](https://github.com/vareladev/pdm2024/blob/main/projectscreenshots/clase41-1.png)
 - Implementación de ventana emergente para cerrar sesión
+
 ![Alt text](https://github.com/vareladev/pdm2024/blob/main/projectscreenshots/clase41-2.png)
