@@ -24,3 +24,4 @@ El contenido del curso se ha dividido en siete temas principales, que se detalla
 | Clase 3.2 | AutomatizedLightBulb    | Modificación de la UI a partir de un estado configurado con sharedflow  |
 | Clase 3.2 | JCUIStateManagement    | Modelo basado en stateflow para administrar el estado de la UI  |
 | Clase 3.2 | UCALife    | UCA Life v1.3: Implementación de stateFlow para el proceso de login y carga de nuevos post  |
+| Clase 4.1 | UCALife    | UCA Life v1.4: Aplicación de DataStore para implementar la funcionalidad de la opción "Recuerdame en este dispositivo" y "Cerrar sesión" |

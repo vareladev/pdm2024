@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name" translatable="false">UCA Life</string>
+    <string name="navbar_home">Home</string>
+    <string name="navbar_add">Add</string>
+    <string name="navbar_profile">Profile</string>
+    <string name="select_photo">Select your photo</string>
+    <string name="post_photo">Post!</string>
+    <string name="insert_title">Insert title</string>
+    <string name="insert_description">Insert description</string>
+    <string name="user_information">User information</string>
+    <string name="actions">Actions</string>
+    <string name="email">Email</string>
+    <string name="uploaded_photos">Uploaded photos</string>
+    <string name="change_password">Change password</string>
+    <string name="sign_out">Sign out</string>
+    <string name="delete_account">Delete my account</string>
+    <string name="login_remember_me">Remember me</string>
+    <string name="login_btn_login">Login</string>
+    <string name="login_username">Username</string>
+    <string name="login_placeholder_user">Enter your username</string>
+    <string name="login_password">Password</string>
+    <string name="login_placeholder_pass">Enter your password</string>
+    <string name="login_toast_error">Wrong Credentials :(</string>
+    <string name="error_1">Incorrect username or password</string>
+    <string name="error_2">Netword error</string>
+
+</resources>
