@@ -11,6 +11,6 @@ Este proyecto corresponde los siguientes ejemplos de la clase 4.2:
 ## Capturas de pantalla del proyecto
 ![Alt text](https://github.com/vareladev/pdm2024/blob/main/projectscreenshots/clase42-1.png)
 ![Alt text](https://github.com/vareladev/pdm2024/blob/main/projectscreenshots/clase42-2.png)
-![Alt text](https://github.com/vareladev/pdm2024/blob/main/projectscreenshots/clase42-2.png)
+![Alt text](https://github.com/vareladev/pdm2024/blob/main/projectscreenshots/clase42-3.png)
 
 
