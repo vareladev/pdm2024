@@ -28,3 +28,4 @@ El contenido del curso se ha dividido en siete temas principales, que se detalla
 | Clase 4.2 | Course Manager    | Aplicación para el almacenamiento y gestión de cursos a través de bases de datos locales |
 | Clase 4.4 | APIRestLogin    | Aplicación simple que consulta API pública de pruebas |
 | Clase 4.5 | Course Manager    | Aplicación para el almacenamiento y gestión de cursos con gestión de datos a través de bases de datos remotas y acceso a API |
+| Clase 5.2 | APIRestLogin    | Versión 3 de la aplicación construida en la clase 4.4. Se ha implementado MVVM basado en Clean Arquitecture e inyección de dependencias con Hilt |

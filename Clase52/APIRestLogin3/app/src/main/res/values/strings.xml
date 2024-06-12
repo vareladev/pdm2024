@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">API Rest Login 3</string>
+    <string name="login_remember_me">Remember me</string>
+    <string name="login_btn_login">Login</string>
+    <string name="login_username">Username</string>
+    <string name="login_placeholder_user">Enter your username</string>
+    <string name="login_password">Password</string>
+    <string name="login_placeholder_pass">Enter your password</string>
+</resources>
