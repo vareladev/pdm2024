@@ -29,3 +29,5 @@ El contenido del curso se ha dividido en siete temas principales, que se detalla
 | Clase 4.4 | APIRestLogin    | Aplicación simple que consulta API pública de pruebas |
 | Clase 4.5 | Course Manager    | Aplicación para el almacenamiento y gestión de cursos con gestión de datos a través de bases de datos remotas y acceso a API |
 | Clase 5.2 | APIRestLogin    | Versión 3 de la aplicación construida en la clase 4.4. Se ha implementado MVVM basado en Clean Arquitecture e inyección de dependencias con Hilt |
+| Clase 6.1 | APIRestLogin    | Versión 4 de la aplicación construida en la clase 4.4. En donde se han implementado algunos ejemplos de pruebas unitarias de los casos de uso |
+| Clase 6.2 | Course Manager    | Implementación de pruebas unitarias en la aplicación para el almacenamiento y gestión de cursos. Se ha utilizado la versión que realiza almacenamiento en base de datos local |
